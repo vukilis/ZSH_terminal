@@ -4,6 +4,7 @@
 # echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 # chsh $USER
 #     /bin/zsh   # sudo -u $USER chsh -s /bin/zsh
+# sudo nano ~/.p10k.zsh
 
 echo "--------------------------------------"
 echo "-----       ZSH INSTALATION      -----"
@@ -14,7 +15,7 @@ touch "$HOME/.cache/zshhistory"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 chsh $USER -s /bin/zsh
-echo $SHELL
+#echo $SHELL
 echo "RESTART TERMINAL OR REBOOT PC"
 
 echo "--------------------------------------"
