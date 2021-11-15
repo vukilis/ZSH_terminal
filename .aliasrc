@@ -23,7 +23,7 @@ ex ()
   fi
 }
 
-export EDITOR=vim
+export EDITOR=vi
 
 # ALIAS
 alias l='ls -l'
