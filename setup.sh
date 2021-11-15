@@ -18,7 +18,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 chsh $USER -s /bin/zsh
 #echo $SHELL
-echo "RESTART TERMINAL OR REBOOT PC"
 
 echo "--------------------------------------"
 echo "-----         ZSH SETUP          -----"
@@ -26,6 +25,7 @@ echo "--------------------------------------"
 
 sudo cp -r DroidSansMono /usr/share/fonts/DroidSansMono
 fc-cache -f -v
-
 cp .p10k.zsh $HOME/.p10k.zsh
+source ~/.p10k.zsh
+echo "RESTART TERMINAL OR REBOOT PC"
 

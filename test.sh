@@ -1,1 +1,0 @@
-cp .p10k.zsh $HOME/.p10k.zsh
