@@ -28,5 +28,5 @@ fc-cache -f -v
 cp .p10k.zsh $HOME/.p10k.zsh
 cp .zshrc $HOME/.zshrc
 source ~/.p10k.zsh
-echo "RESTART TERMINAL OR REBOOT PC"
+echo "REBOOT PC"
 
