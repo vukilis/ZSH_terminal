@@ -5,6 +5,8 @@
 # chsh $USER
 #     /bin/zsh   # sudo -u $USER chsh -s /bin/zsh
 # sudo nano ~/.p10k.zsh
+# font set 
+# set theme
 
 echo "--------------------------------------"
 echo "-----       ZSH INSTALATION      -----"
@@ -21,3 +23,9 @@ echo "RESTART TERMINAL OR REBOOT PC"
 echo "--------------------------------------"
 echo "-----         ZSH SETUP          -----"
 echo "--------------------------------------"
+
+mv DroidSansMono /usr/share/fonts/DroidSansMono
+fc-cache -f -v
+
+mv .p10k.zsh ~/.p10k.zsh
+
