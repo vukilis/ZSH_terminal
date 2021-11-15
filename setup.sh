@@ -24,8 +24,7 @@ echo "--------------------------------------"
 echo "-----         ZSH SETUP          -----"
 echo "--------------------------------------"
 
+cp .p10k.zsh $HOME/.p10k.zsh
 cp -r DroidSansMono /usr/share/fonts/DroidSansMono
 fc-cache -f -v
-
-cp .p10k.zsh $HOME/.p10k.zsh
 
