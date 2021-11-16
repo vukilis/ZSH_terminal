@@ -20,6 +20,8 @@ bash arch-setup.sh
 OR  
 **Edit config file for your terminal**
 
+`Recommended font: MesloLGS NF Regular`
+
 ## What Script Do?
 - auto install dependencies: 
   > zsh  
