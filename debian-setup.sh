@@ -1,13 +1,3 @@
-#### Instalation ####
-# sudo apt install -y git zsh zsh-syntax-highlighting autojump zsh-autosuggestions
-# clone: git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-# echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
-# chsh $USER
-#     /bin/zsh   # sudo -u $USER chsh -s /bin/zsh
-# sudo nano ~/.p10k.zsh
-# font set 
-# set theme
-
 echo "--------------------------------------"
 echo "-----       ZSH INSTALATION      -----"
 echo "--------------------------------------"
