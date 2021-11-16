@@ -1,4 +1,4 @@
-# zsh
+# zsh-terminal
 
 **My ZSH Config**
 
@@ -8,6 +8,9 @@ git clone https://github.com/vukilis/ZSH_terminal.git
 cd ZSH_terminal
 bash setup.sh
 ```
+## How to add font to terminal
+**Edit -> Preferences -> font -> select your font** 
+
 ## What Script Do?
 - auto install dependencies: 
   > zsh  
