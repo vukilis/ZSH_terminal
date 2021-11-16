@@ -3,13 +3,22 @@
 **My ZSH Config**
 
 ## Setup
+#### DEBIAN
 ```
 git clone https://github.com/vukilis/ZSH_terminal.git
 cd ZSH_terminal
-bash setup.sh
+bash debian-setup.sh
+```
+#### ARCH
+```
+git clone https://github.com/vukilis/ZSH_terminal.git
+cd ZSH_terminal
+bash arch-setup.sh
 ```
 ## How to add font to terminal
-**Edit -> Preferences -> font -> select your font** 
+**Edit -> Preferences -> font -> select your font**  
+OR  
+**Edit config file for your terminal**
 
 ## What Script Do?
 - auto install dependencies: 

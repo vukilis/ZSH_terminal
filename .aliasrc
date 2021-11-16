@@ -29,6 +29,6 @@ export EDITOR=vi
 alias l='ls -l'
 alias ll='ls -la'
 alias zshrc='${=EDITOR} ~/.zshrc'
-alias p10k='${=EDITOR} ~/.p10k.zsh'
+alias pp10k='${=EDITOR} ~/.p10k.zsh'
 alias h='history'
 alias p='ps -f'
